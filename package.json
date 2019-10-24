@@ -1,7 +1,7 @@
 {
   "name": "ModuleA",
   "version": "1.0.0",
-  "description": "Common Services",
+  "description": "AngularMoscow #16 Common Services",
   "main": "index.js",
   "scripts": {
     "test": "mocha -r ts-node/register -r tsconfig-paths/register  src/**/*.spec.ts"
