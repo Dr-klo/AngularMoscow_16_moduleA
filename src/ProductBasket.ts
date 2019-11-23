@@ -2,7 +2,7 @@
 import {IUser} from "../../Contracts/src/api/IUser";
 
 export class ProductBasket {
-    private products:  IProduct[];
+    protected products:  IProduct[];
     constructor(private owner: IUser){
         this.products = new Array();
     }
