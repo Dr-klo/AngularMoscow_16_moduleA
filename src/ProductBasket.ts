@@ -23,4 +23,7 @@ export class ProductBasket {
     public getList(): IProduct[] {
         return this.products.slice();
     }
+    public ToString():string {
+        return `Product Basket(${this.products.length} items)`;
+    }
 }
